@@ -1,0 +1,75 @@
+.. _mainindex:
+
+=======================
+SWAT-LAMP's Documentation
+=======================
+
+Welcome to SWAT-LAMP's Documentation.
+
+SWAT-LAMP is 
+
+First Steps
+===========
+
+The following sections give an overview of SWAT-LAMP for both techical and non-technical audience.
+
+ * :doc:`About SWAT-LAMP <about>`
+ * :doc:`Installation Guide <tutorials/install/install>`
+
+
+How To Use The Documentation
+============================
+----
+
+Table of contents
+=================
+
+About SWAT-LAMP
+-------------
+
+.. toctree::
+    :maxdepth: 5
+
+    about 
+
+Tutorials
+---------
+
+The :doc:`Tutorials <tutorials/index>` section contains step-by-step workshops that are oriented around performing particular sets of tasks, like ----
+
+.. toctree::
+    :maxdepth: 5
+
+    tutorials/index 
+
+Reference
+---------
+
+The :doc:`Reference <reference/index>` section provides details about the internals of the SWAT-LAMP project.
+
+.. toctree::
+    :maxdepth: 5
+
+    reference/index
+
+
+Organizational
+--------------
+
+The :doc:`Organizational <organizational/index>` section contains information about the SWAT and SWAT-LAMP project itself, how to contribute, learn about the community, helpful links, about the patch review process, the project road map and other items.
+
+.. toctree::
+    :maxdepth: 5
+
+    organizational/index
+
+Need Help?
+==========
+
+Having trouble? Cant find what you are looking for? We'd like to help!
+
+ * Contact ----
+
+.. _post a question: 
+
+

@@ -1,0 +1,74 @@
+.. _contrib:
+
+=======================
+Contributing to SWAT-LAMP
+=======================
+
+.. warning:: This section is freely adapted from the official `GitHub guides <https://guides.github.com>`_.
+
+If you are interested in helping us to make SWAT-LAMP, there are many ways to do so.
+
+Participate in the Discussion
+-----------------------------
+
+SWAT-LAMP has a mailing list (https://groups.google.com/d/forum/SWAT-LAMP-users) where users can ask and answer questions about the software.
+There are also IRC chats on Gitter where users (https://gitter.im/SWAT-LAMP/general) and developers (https://gitter.im/SWAT-LAMP) can discuss SWAT-LAMP in real time.
+Sometimes users also post interesting tips for managing sites running SWAT-LAMP.
+If you want to help out with SWAT-LAMP, one easy way is to sign up for the mailing list and help answer questions.
+
+Report Problems on the Issue Tracking System
+--------------------------------------------
+
+Informative bug reports are a key part of the bug fixing process, so if you do run into a problem with SWAT-LAMP, please don't hesitate to report it on our bug tracker, available online at http://github.com/SWAT-LAMP/SWAT-LAMP/issues.
+Useful information for bug reports includes:
+
+  * What were you doing when the bug occurred?
+    Does the problem occur every time you do that, or only occasionally?
+  * What were you expecting to happen?
+    What happened instead?
+  * What version of the software are you using?
+    Please also note any changes from the default configuration.
+  * If there is a data file involved in the bug (such as a Shapefile that doesn't render properly), please consider including it in the bug report.
+    Be aware that not all data files are freely distributable.
+
+To help SWAT-LAMP to better address the issue you can tag the ticket with one or more lables
+that you can find on the side column.
+
+Write Documentation
+-------------------
+
+SWAT-LAMP's documentation can always use improvement - there are always more questions to be answered.
+For managing contributions to the manual, SWAT-LAMP uses a process similar to that used for managing the code itself.
+The documentation is generated from source files in the `docs/` directory within the SWAT-LAMP source repository.
+See http://sphinx.pocoo.org/ for more information on the documentation system SWAT-LAMP uses.
+
+If you want to learn more about contributing to the documentation, please go ahead to the "`How to contribute to SWAT-LAMP's Documentation <http://docs.SWAT-LAMP.org/en/latest/organizational/contribute/contribute_to_documentation.html#contrib-docu>`_". 
+SWAT-LAMP also have some guidelines to help with writing once you are set up "`How to write Documentation <http://docs.SWAT-LAMP.org/en/latest/organizational/contribute/documentation_guidelines.html#doc-guidelines>`_".
+
+Provide Translations
+--------------------
+
+If SWAT-LAMP doesn't provide a user interface in your native language, consider contributing a new translation.
+To get started here are the instructions "`How to contribute to SWAT-LAMP's Translation <http://docs.SWAT-LAMP.org/en/latest/organizational/contribute/contribute_to_translation.html>`_".
+
+Write Code
+----------
+
+Of course since SWAT-LAMP is an open source project which encourages contributions of source code as well.
+If you are interested in making small changes, you can find an open ticket on http://github.com/SWAT-LAMP/SWAT-LAMP/issues, hack away, and get started on the "`Patch Review Process <http://docs.SWAT-LAMP.org/en/latest/organizational/contribute/review_criteria.html>`_".
+
+Further Reading
+---------------
+
+:ref:`contrib_on_github`
+
+:ref:`work_with_github`
+
+:ref:`roadmap`
+
+.. toctree::
+   :hidden:
+    
+   contrib_on_github
+   work_with_github
+   roadmap

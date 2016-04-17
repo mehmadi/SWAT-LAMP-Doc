@@ -1,0 +1,20 @@
+.. _SWAT-LAMP_settings:
+
+SWAT-LAMP Advanced Configuration
+==============================
+
+Here you will find information about each and every component of SWAT-LAMP, for example geoserver, SWAT-LAMP settings, security, etc.
+
+:ref:`settings`
+
+:ref:`djangoapps`
+
+:ref:`release`
+
+.. toctree::
+    :hidden:
+    :maxdepth: 3
+
+    settings
+    django-apps
+    release

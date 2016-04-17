@@ -1,0 +1,22 @@
+.. _customize_admin:
+
+===========================
+Customize the look and feel 
+===========================
+
+.. warning:: These instructions are only valid if you've installed SWAT-LAMP following the guide at :ref:`setup_configure_httpd` !!
+
+You might want to change the look of SWAT-LAMP, editing the colors and the logo of the website and adjust the templates for your needs. To do so, you first have to set up your own SWAT-LAMP project from a template. If you've successfully done this, you can go further and start theming your SWAT-LAMP project.
+
+.. toctree::
+   :hidden:
+
+   customize/setup_admin
+   customize/theme_admin	
+
+:ref:`setup_admin`
+  Setup your own SWAT-LAMP project
+
+:ref:`theme_admin`
+  Theme your SWAT-LAMP project
+

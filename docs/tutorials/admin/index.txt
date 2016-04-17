@@ -1,0 +1,64 @@
+.. _admin_workshop:
+
+=======================
+Administrators Workshop
+=======================
+
+Welcome to the SWAT-LAMP Training `Administrators Workshop` documentation v\ |release|.
+
+This workshop will teach how to install and manage a deployment of the `SWAT-LAMP <http://SWAT-LAMP.org/>`_ software application.
+At the end of this section you will master all the SWAT-LAMP sections and entities from an administrator perspective. 
+
+You will know how to:
+
+1. Use the SWAT-LAMP’s Django Administration Panel.
+2. Use the console Management Commands for SWAT-LAMP.
+3. Configure and customize your SWAT-LAMP installation.
+
+*Prerequisites*
+
+    Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
+
+    1. SWAT-LAMP and Django framework concepts
+    2. Good knowledge of Python
+    3. Good knowledge of what is a geospatial server and geospatial web services.
+    4. Good knowledge of what is metadata and catalog.
+    5. Good knowledge of HTML and CSS.
+
+.. toctree::
+    :hidden:
+    
+    admin_panel/index
+    admin_mgmt_commands/index
+    csw_settings/index
+    customize_lookfeel/index
+    debug_SWAT-LAMP/index
+    default_lang/index
+    more_on_security_and_permissions/index
+    loading_data_into_SWAT-LAMP/index
+    
+:ref:`admin_panel`
+    SWAT-LAMP has an administration panel based on the Django admin which can be used to do some database operations. Although most of the operations can and should be done through the normal SWAT-LAMP interface, the admin panel provides a quick overview and management tool over the database.
+
+:ref:`admin_mgmt_commands`
+    SWAT-LAMP comes with administrative commands to help with day to day tasks. This section shows the list of the ones that come from the SWAT-LAMP application.
+
+:ref:`admin_csw_settings`
+    `pycsw <http://pycsw.org/>`_ is the default CSW server implementation provided with SWAT-LAMP. This section will explain how to configure SWAT-LAMP to operate against alternate CSW server implementations.
+    
+:ref:`customize_admin`
+    You might want to change the look of SWAT-LAMP, editing the colors and the logo of the website and adjust the templates for your needs. To do so, you first have to set up your own SWAT-LAMP project from a template. If you've successfully done this, you can go further and start theming your SWAT-LAMP project.
+
+:ref:`debug_SWAT-LAMP`
+    There are several mechanisms to debug SWAT-LAMP installations, the most common ones are discussed in this section.
+
+:ref:`default_language`
+    SWAT-LAMP's default language is English, but SWAT-LAMP users can change the interface language with the pulldown menu at the top-right of most SWAT-LAMP pages.  Once a user selects a language SWAT-LAMP remembers that language for subsequent pages.
+
+:ref:`manage`
+    This tutorial will guide you through the steps that can be done in order to restrict the access on your data uploaded to SWAT-LAMP.
+
+    First of all it will be shown how a user can be created and what permissions he can have. Secondly we will take a closer look on to layers, maps and documents and the different opportunities you have in order to ban certain users from viewing or editing your data.
+
+:ref:`data`
+    This module will walk you through the various options available to load data into your SWAT-LAMP from GeoServer, on the command-line or programatically. You can choose from among these techniques depending on what kind of data you have and how you have your SWAT-LAMP setup.

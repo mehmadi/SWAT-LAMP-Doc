@@ -1,0 +1,51 @@
+.. _javascript:
+
+=====================
+JavaScript in SWAT-LAMP
+=====================
+
+SWAT-LAMP provides a number of facilities for interactivity in the web browser built on top of several high-quality JavaScript frameworks:
+
+* `Bootstrap <http://getbootstrap.com/>`_ for SWAT-LAMP's front-end user interface and common user interaction.
+* `Bower <http://bower.io/>`_ for SWAT-LAMP's front-end package management.
+* `ExtJS <http://extjs.com/>`_ for component-based UI construction and data access
+* `OpenLayers <http://openlayers.org/>`_ for interactive mapping and other geospatial operations
+* `GeoExt <http://geoext.org/>`_ for integrating ExtJS with OpenLayers
+* `Grunt <http://gruntjs.com/>`_ for front-end task automation.
+* `GXP <http://projects.opengeo.org/gxp>`_ for providing some higher-level application building facilities on top of GeoExt, as well
+  as improving integration with GeoServer.
+* `jQuery <http://jquery.com>`_ to abstract javascript manipulation, event handling, animation and Ajax.
+
+SWAT-LAMP uses application-specific modules to handle pages and services that are unique to SWAT-LAMP.  This framework includes:
+
+* A `SWAT-LAMP mixin <https://github.com/SWAT-LAMP/SWAT-LAMP/blob/master/SWAT-LAMP/static/SWAT-LAMP/js/extjs/SWAT-LAMP-mixin.js>`_  class
+  that provides GeoExplorer with the methods needed to properly function in SWAT-LAMP.  The class
+  is responsible for checking permissions, retrieving and submitting the `CSRF token <https://docs.djangoproject.com/en/dev/ref/contrib/csrf/>`_,
+  and user authentication.
+
+* A `search module <https://github.com/SWAT-LAMP/SWAT-LAMP/tree/master/SWAT-LAMP/static/SWAT-LAMP/js/search>`_ responsible for the SWAT-LAMP's site-wide search functionality.
+* An `upload and status module <https://github.com/SWAT-LAMP/SWAT-LAMP/tree/master/SWAT-LAMP/static/SWAT-LAMP/js/upload>`_ to support file uploads.
+* `Template files <https://github.com/SWAT-LAMP/SWAT-LAMP/tree/master/SWAT-LAMP/static/SWAT-LAMP/js/templates>`_ for generating commonly used html sections.
+* A `front-end testing module <https://github.com/SWAT-LAMP/SWAT-LAMP/tree/master/SWAT-LAMP/static/SWAT-LAMP/js/tests>`_ to test SWAT-LAMP javascript.
+
+The following concepts are particularly important for developing on top of the
+SWAT-LAMP's JavaScript framework.
+
+* Components - Ext components handle most interactive functionality in
+  "regular" web pages.  For example, the scrollable/sortable/filterable table
+  on the default Search page is a Grid component.  While SWAT-LAMP does use some
+  custom components, familiarity with the idea of Components used by ExtJS is
+  applicable in SWAT-LAMP development.
+
+* Viewers - Viewers display interactive maps in web pages, optionally decorated
+  with Ext controls for toolbars, layer selection, etc.  Viewers in SWAT-LAMP use
+  the GeoExplorer base class, which builds on top of GXP's Viewer to provide
+  some common functionality such as respecting site-wide settings for
+  background layers. Viewers can be used as components embedded in pages, or
+  they can be full-page JavaScript applications.
+
+* Controls - Controls are tools for use in OpenLayers maps (such as a freehand
+  control for drawing new geometries onto a map, or an identify control for
+  getting information about individual features on a map.)  GeoExt provides
+  tools for using these controls as ExtJS "Actions" - operations that can be
+  invoked as buttons or menu options or associated with other events.

@@ -1,0 +1,18 @@
+.. _setup_on_centos:
+
+===============================================
+SWAT-LAMP (v\ |release|) installation on CentOS 7
+===============================================
+
+This part of the documentation describes the complete setup process for SWAT-LAMP
+on a CentOS 7 machine.
+
+.. toctree::
+   :maxdepth: 2
+
+   setup_centos
+   install_SWAT-LAMP
+   install_base_tomcat
+   install_base_httpd
+   install_base_postgresql
+   devmode_install_centos

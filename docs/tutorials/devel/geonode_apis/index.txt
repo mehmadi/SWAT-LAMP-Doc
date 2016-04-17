@@ -1,0 +1,11 @@
+.. _SWAT-LAMP_apis:
+
+SWAT-LAMP APIs
+============
+
+.. toctree::
+   :maxdepth: 3
+
+   geoserver_rest/rest
+   importer/index
+   SWAT-LAMP/index

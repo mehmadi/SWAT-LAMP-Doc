@@ -1,0 +1,68 @@
+.. _create_SWAT-LAMP_db:
+
+=================
+Create SWAT-LAMP DB
+=================
+
+In this section we are going to setup users and databases for SWAT-LAMP in PostgreSQL.
+
+Users and Permissions
+=====================
+
+First create the `SWAT-LAMP` user. SWAT-LAMP is going to use this user to access the
+database::
+
+    sudo -u postgres createuser -P SWAT-LAMP
+
+You will be prompted asked to set a password for the user. Enter `SWAT-LAMP` as password
+
+Create `SWAT-LAMP` database with owner `SWAT-LAMP`::
+
+    sudo -u postgres createdb -O SWAT-LAMP SWAT-LAMP
+
+And database `SWAT-LAMP_data` with owner `SWAT-LAMP`::
+
+    sudo -u postgres createdb -O SWAT-LAMP SWAT-LAMP_data
+
+Switch to user `postgres` and create PostGIS extension::
+
+    sudo su postgres
+    psql -d SWAT-LAMP_data -c 'CREATE EXTENSION postgis;'
+
+Then adjust permissions::
+
+    psql -d SWAT-LAMP_data -c 'GRANT ALL ON geometry_columns TO PUBLIC;'
+    psql -d SWAT-LAMP_data -c 'GRANT ALL ON spatial_ref_sys TO PUBLIC;'
+
+And switch back to the 'geo' user::
+
+    exit
+
+Now we are going to change user access policy for local connections in file `pg_hba.conf`::
+
+    sudo gedit /etc/postgresql/9.3/main/pg_hba.conf
+
+Scroll down to the bottom of the document. We only need to edit one line. Change::
+
+    # "local" is for Unix domain socket connections only
+    local   all             all                                     peer
+
+Into:::
+
+    # "local" is for Unix domain socket connections only
+    local   all             all                                     trust
+
+.. note::
+
+    If your PostgreSQL database resides on a separate machine, you have to allow
+    remote access to the databases in the pg_hba.conf for the `SWAT-LAMP` user and
+    tell PostgreSQL to accept non local connections in your `postgresql.conf` file
+
+Then restart `PostgreSQL` to make the change effective:::
+
+    sudo service postgresql restart
+
+PostgreSQL is now ready. To test the configuration try to connect to the `SWAT-LAMP`
+database as `SWAT-LAMP`:::
+
+    psql -U SWAT-LAMP SWAT-LAMP

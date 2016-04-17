@@ -1,0 +1,10 @@
+.. _SWAT-LAMP_lib_apis:
+
+SWAT-LAMP's Ad-Hoc API
+====================
+
+.. toctree::
+   :maxdepth: 2
+
+   gsconfig
+   gsimporter

@@ -1,0 +1,45 @@
+.. _about:
+
+=============
+About SWAT-LAMP
+=============
+
+.. image:: img/logo.png
+
+**SWAT-LAMP is a ----- system**, a tool for 
+
+Data management tools built into SWAT-LAMP allow 
+
+It is also designed to be a flexible tool that can be extended and modified to meet requirements in users own applications.
+
+Project Setup
+=======================
+
+SWAT-LAMP allows user to -----
+
+
+Conservation Practices
+==========================
+
+Once the project is setup, SWAT-LAMP lets the user -----
+
+
+Scenario Analysis
+===========================
+
+SWAT-LAMP 
+
+
+Convinced! Where to go from here?
+===========================
+
+The next steps are to follow the :ref:`installation`, :doc:`read the tutorials </tutorials/index>` and email SWAT-LAMP-users+subscribe@googlegroups.com to join the community. Thanks for your interest!
+
+.. note::
+
+    The registration process for the mailing list is the following:
+      #. Send an email to SWAT-LAMP-users+subscribe@googlegroups.com with any subject or content.
+      #. Get a confirmation notice from SWAT-LAMP-users+subconfirm@googlegroups.com and confirm by replying.
+      #. Once the above is complete, you are registered and you can start sending emails to the community.
+
+

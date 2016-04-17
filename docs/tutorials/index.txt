@@ -1,0 +1,105 @@
+=========
+Tutorials
+=========
+
+The tutorials are based around performing tasks, like adding data or publishing maps. The tutorials are written in a workshop like format and are broken into three groups *Users*, *Administrators* and *Developers*.
+
+.. hint:: An Ubuntu 14.04 based Virtual Machine, containing the base packages and data for the execution of the workshop exercises, is available for download `here <https://www.dropbox.com/s/sucj3pb36qqhav3/SWAT-LAMP%20-%20Training%20-%20v1.4.zip?dl=0>`_
+    The Virtual Machine can be launched through `VirtualBox <https://www.virtualbox.org/>`_ or `VMWare Player <http://www.vmware.com/>`_ binaries.
+    
+    The users to be used with the Virtual Machine are:
+    
+    .. code-block:: yaml
+    
+        geo/geo # principal user whith suoders privileges
+        SWAT-LAMP/geo # /home/SWAT-LAMP is the location where you can find sources, binaries and training data
+        postgres/postgres # system user for the management of the DBMS
+        
+.. toctree::
+   :hidden:
+   :maxdepth: 5
+
+   overview_and_ref/index
+   install/index
+   users/index
+   admin/index
+   devel/index
+   advanced/index
+
+:ref:`overview_and_ref`
+    This module guides the user to an overview of SWAT-LAMP and its main components.
+
+    At the end of this section you will have a clear view of what SWAT-LAMP is and can do.
+    You will be able also to use the SWAT-LAMP main functionalities and understand some of
+    the basic concepts of the system infrastructure.
+
+:ref:`installation_and_admin`
+    This module is more oriented to users having some System Administrator background.
+
+    At the end of this section you will be able to setup from scratch the whole SWAT-LAMP infrastructure and understand how to the different pieces are interconnected and which are their dependencies.
+
+    *Prerequisites*
+        Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
+
+        1. SWAT-LAMP and Django framework basic concepts
+        2. What is Python
+        3. What is a DBMS
+        4. What is a Java Virtual Machine and the JDK
+        5. Linux OS basic shell and maintenance commands
+        6. Basic TCP/IP and networking concepts
+        7. Apache HTTPD Server and WSGI Python bindings
+
+:ref:`users_workshop`
+    This workshop will teach how to use the SWAT-LAMP going in depth into what we can do with software application.
+    At the end of this section you will master all the SWAT-LAMP sections and entities from a user perspective. 
+
+    You will know how to:
+
+    1. Manage users accounts and how to modify them.
+    2. Use and manage the different SWAT-LAMP basic resouces.
+    3. Use the SWAT-LAMP searching tools to find your resources.
+    4. Manage Layers and Maps, update the styles and publish them.
+    5. Load datasets into SWAT-LAMP and keep them synchronized with GeoServer.
+
+    *Prerequisites*
+        Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
+
+        1. SWAT-LAMP and Django framework basic concepts
+        2. What is Python
+        3. What is a geospatial server and a basic knowledge of the geospatial web services.
+        4. What is a metadata and a catalog.
+        5. What is a map and a legend.
+
+:ref:`admin_workshop`
+    This workshop will teach how to install and manage a deployment of the `SWAT-LAMP <http://SWAT-LAMP.org/>`_ software application.
+    At the end of this section you will master all the SWAT-LAMP sections and entities from an administrator perspective. 
+
+    You will know how to:
+
+    1. Use the SWAT-LAMP’s Django Administration Panel.
+    2. Use the console Management Commands for SWAT-LAMP.
+    3. Configure and customize your SWAT-LAMP installation.
+
+    *Prerequisites*
+        Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
+
+        1. SWAT-LAMP and Django framework concepts
+        2. Good knowledge of Python
+        3. Good knowledge of what is a geospatial server and geospatial web services.
+        4. Good knowledge of what is metadata and catalog.
+        5. Good knowledge of HTML and CSS.
+
+:ref:`dev_workshop`
+    This workshop will teach how to develop with and for the `SWAT-LAMP <http://SWAT-LAMP.org>`_ software application.
+    This module will introduce you to the components that SWAT-LAMP is built with, the standards that it supports and the services it provides based on those standards, and an overview its architecture.
+
+    *Prerequisites*
+        SWAT-LAMP is a web based GIS tool, and as such, in order to do development on SWAT-LAMP itself or to integrate it into your own application, you should be familiar with basic web development concepts as well as with general GIS concepts.
+
+:ref:`adv_workshop`
+    This module introduces advanced tecquinques and metodologies for the management of the geospatial data and the maintenance and tuning of the servers on *Production Environments*.
+    
+    The last sections of the module will teach also you how to add brand new classes and functionalities to your SWAT-LAMP installation.
+    
+    *Prerequisites*
+        You should be familiar with SWAT-LAMP, GeoServer, Python framework and development concepts other than with system administrator and caching concepts and tecnquiques.

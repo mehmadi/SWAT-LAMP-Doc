@@ -1,0 +1,30 @@
+.. _adv_workshop:
+
+=================
+Advanced Workshop
+=================
+
+Welcome to the SWAT-LAMP Training `Advanced Workshop` documentation v\ |release|.
+
+This module introduces advanced tecquinques and metodologies for the management of the geospatial data and the maintenance and tuning of the servers on *Production Environments*.
+    
+The last sections of the module will teach also you how to add brand new classes and functionalities to your SWAT-LAMP installation.
+
+*Prerequisites*
+    You should be familiar with SWAT-LAMP, GeoServer, Python framework and development concepts other than with system administrator and caching concepts and tecnquiques.
+        
+.. toctree::
+    :hidden:
+    
+    adv_data_mgmt/index
+    SWAT-LAMP_settings/index
+    SWAT-LAMP_production/index
+
+:ref:`adv_data_mgmt`
+    Advanced Data Management and Processing tecquiques.
+
+:ref:`SWAT-LAMP_settings`
+    Learn how to deal with advanced SWAT-LAMP configuration settings and external DJango Apps.
+
+:ref:`SWAT-LAMP_production`
+    Concepts and tecquinques for the deployment af SWAT-LAMP and GeoServer on a Production system.
