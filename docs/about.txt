@@ -19,7 +19,7 @@ SWAT- LAMP is an in-progress project.
 Project Setup
 =======================
 
-SWAT-LAMP allows user to use their watershed model developed using ArcSWAT to define a scenario analysis project. As of the current release, only TxtInOut (SWAT text inputs) are fully supported. Support for loading microsoft Access (*.mdb) files is limited; however, we are working to make it possible. The model used to setup the model will be called, baseline hereafter. 
+SWAT-LAMP allows user to use their watershed model developed using ArcSWAT to define a scenario analysis project. As of the current release (v\ |release|.), only TxtInOut (SWAT text inputs) are fully supported. Support for loading microsoft Access (*.mdb) files is limited; however, we are working to make it possible. The model used to setup the model will be called, baseline hereafter. 
 
 
 Conservation Practices
@@ -29,7 +29,7 @@ Once the project is setup, user will be able to review and modify a long set of 
 
 .. note::
 
-    Defining new practice and modifying existing practices is not active in the Beta release, yet. However, users can work in the source to make their required changes. This will be explained in detail later.
+    Defining new practice and modifying existing practices is not active in the Beta release (v\ |release|.), yet. However, users can work in the source to make their required changes. This will be explained in detail later.
     
 
 Scenario Analysis
