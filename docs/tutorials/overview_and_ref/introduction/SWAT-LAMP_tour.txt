@@ -1,0 +1,6 @@
+.. _SWAT-LAMP_tour:
+
+=================
+A Tour Of SWAT-LAMP
+=================
+In order to get started, let’s look at the SWAT-LAMP interface and get a feel for how to navigate around it.
