@@ -8,7 +8,7 @@ This section introduces the SWAT-LAMP GUI and functionalities through a step-by-
 At the end of this module the users will be familiar with the SWAT-LAMP GUI and objects.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    SWAT-LAMP_tour
    SWAT-LAMP_quickstart
