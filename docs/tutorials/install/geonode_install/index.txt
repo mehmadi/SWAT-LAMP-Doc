@@ -1,20 +1,6 @@
 .. _SWAT-LAMP_install:
 
 ===================================================
-SWAT-LAMP (v\ |release|) installation on Ubuntu 14.04
+SWAT-LAMP (v\ |release|)
 ===================================================
-
-This part of the documentation describes the complete setup process for SWAT-LAMP
-on an Ubuntu 14.04 machine. The end of this section of the documentation also
-describes how to automate the installation and comfiguration of SWAT-LAMP using
-`Ansible <http://www.ansible.com/>`_.
-
-.. toctree::
-    :maxdepth: 2
-
-    install_SWAT-LAMP_application
-    create_SWAT-LAMP_db
-    setup_configure_httpd
-    install_geoserver_application
-    all_together
-    using_ansible
+--
