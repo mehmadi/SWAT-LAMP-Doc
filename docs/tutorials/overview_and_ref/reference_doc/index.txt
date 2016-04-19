@@ -3,7 +3,7 @@
 =============
 Reference Doc
 =============
-In this section, you will find information about each and every component of SWAT-LAMP, for example *GeoServer*, *SWAT-LAMP Settings*, *Security*, etc.
+In this section, you will find information about each and every module and feature of SWAT-LAMP.
 
 .. toctree::
    :maxdepth: 2
