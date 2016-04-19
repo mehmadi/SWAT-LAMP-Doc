@@ -1,0 +1,12 @@
+.. _manage_practices:
+
+=================
+Manage Practices
+=================
+SWAT-LAMP allows users to 
+
+Features include:
+
+* sss
+
+* 
