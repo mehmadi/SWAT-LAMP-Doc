@@ -1,35 +1,3 @@
 =======================
 Reference documentation
 =======================
-
-In this section, you will find information about each and every component of SWAT-LAMP, for example geoserver, SWAT-LAMP settings, security, etc.
-
-:ref:`security`
-
-:ref:`api`
-
-:ref:`localization`
-
-:ref:`djangoapps`
-
-:ref:`javascript`
-
-:ref:`settings`
-
-:ref:`browsers`
-
-:ref:`geosites`
-
-.. toctree::
-    :hidden:
-    :maxdepth: 3
-
-    security
-    api
-    localization
-    developers/index
-    developers/django-apps
-    developers/javascript
-    developers/settings
-    browsers
-    developers/geosites
