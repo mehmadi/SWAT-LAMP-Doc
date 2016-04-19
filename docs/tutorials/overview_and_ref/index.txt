@@ -9,7 +9,7 @@ This module guides the user to an overview of SWAT-LAMP and its main components.
 
 At the end of this section you will have a clear view of what SWAT-LAMP is and can do.
 You will be able also to use the SWAT-LAMP main functionalities and understand some of
-the basic concepts of the system infrastructure.
+the basic concepts.
 
 .. toctree::
     :hidden:
@@ -19,13 +19,7 @@ the basic concepts of the system infrastructure.
     reference_doc/index
    
 :ref:`user_features_index`
-    Open Source Geospatial Content Management System
-
-    SWAT-LAMP is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI).
-
-    What SWAT-LAMP can be used for…
-    `SWAT-LAMP Demo <http://demo.SWAT-LAMP.org/>`_
-    (admin/admin)
+    SWAT-LAMP is 
 
 :ref:`introduction_index`
     This section introduces the SWAT-LAMP GUI and functionalities through a step-by-step workshop.
@@ -33,4 +27,4 @@ the basic concepts of the system infrastructure.
     At the end of this module the users will be familiar with the SWAT-LAMP default GUI and objects.
 
 :ref:`reference_doc_index`
-    In this section, you will find information about each and every component of SWAT-LAMP, for example *GeoServer*, *SWAT-LAMP Settings*, *Security*, etc.
+    In this section, you will find information about each and every feature of SWAT-LAMP.
