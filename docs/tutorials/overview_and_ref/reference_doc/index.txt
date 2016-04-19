@@ -6,7 +6,7 @@ Reference Doc
 In this section, you will find information about each and every module and feature of SWAT-LAMP.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    architecture
    components
