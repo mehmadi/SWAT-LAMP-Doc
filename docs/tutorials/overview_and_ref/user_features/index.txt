@@ -3,18 +3,13 @@
 ===============
 Users' Features
 ===============
-Open Source Geospatial Content Management System
-
-SWAT-LAMP is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI).
-
-What SWAT-LAMP can be used for…
-`SWAT-LAMP Demo <http://demo.SWAT-LAMP.org/>`_
-(admin/admin)
+SWAT-LAMP is 
 
 .. toctree::
    :maxdepth: 2
 
-   spatial_data_discovery
-   import_and_manage
-   interactive_mapping
+   setup_a_model
+   manage_practices
+   manage_scenarios
+   visualize_results
 
