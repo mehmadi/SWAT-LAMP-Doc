@@ -6,40 +6,54 @@ About SWAT-LAMP
 
 .. image:: img/logo.png
 
-**SWAT-LAMP is a ----- system**, a tool for 
+**SWAT-LAMP**,  is a tool for sustainalbe land management and planing using Soil and Water Assessement Tool (SWAT). 
 
-Data management tools built into SWAT-LAMP allow 
+Scenario management feature built into SWAT-LAMP allow defining scenarios for their impact assessment on both hydrology and water quality. Scenarios are combination of practices that can be represented in SWAT model. 
 
-It is also designed to be a flexible tool that can be extended and modified to meet requirements in users own applications.
+Scenarios in SWAT-LAMP can be defined manually or by using a built-in Multi-Criteria Decision Analysis (MCDA) tool. This is done based on the effectivess of practices, their associated costs, and importace of the water quality constituents for the user.
+
+SWAT-LAMP is also designed to be a flexible tool. Users can extend and modify practices in the tool to meet requirements in their own applications.
+
+SWAT- LAMP is still in-progress project.
 
 Project Setup
 =======================
 
-SWAT-LAMP allows user to -----
+SWAT-LAMP allows user to use their watershed model developed using ArcSWAT to define a scenario analysis project. As of the current release, only TxtInOut (SWAT text inputs) are fully supported. Support for loading microsoft Access (*.mdb) files is limited; however, we are working to make it possible. The model used to setup the model will be called, baseline hereafter. 
 
 
 Conservation Practices
 ==========================
 
-Once the project is setup, SWAT-LAMP lets the user -----
+Once the project is setup, user will be able to review and modify a long set of practices already built in the tool. This practices will be used to define scenarios. User can extend the tool by defining new practices based on his/her needs. Implementation cost, Operation & Maintennce (O&M) costs and lifetime of the conseration practices may be defined here.
 
+.. note::
+
+    Defining new practice and modifying existing practices is not active in the Beta release, yet. However, users can work in the source to make their required changes. This will be explained in detail later.
+    
 
 Scenario Analysis
 ===========================
 
-SWAT-LAMP 
+Once the project is setup, SWAT-LAMP lets user to define scenarios manually or by using a decision support tool. User will be able to define scenarios based on the baseline or based on the other scenarios. Each scenario can have different 
+
+
+Visualization
+===========================
+
+After defning scenarios in the SWAT-LAMP user can test impact of practices by running SWAT model. Outputs can be visualized for individual scenario or a group of scenarios for comparison. User can opt to see the graphs for different time steps, ranging from daily to annual.
 
 
 Convinced! Where to go from here?
 ===========================
 
-The next steps are to follow the :ref:`installation`, :doc:`read the tutorials </tutorials/index>` and email SWAT-LAMP-users+subscribe@googlegroups.com to join the community. Thanks for your interest!
+The next steps are to follow the :ref:`installation`, :doc:`read the tutorials </tutorials/index>` and email ----. Thanks for your interest!
 
 .. note::
 
     The registration process for the mailing list is the following:
-      #. Send an email to SWAT-LAMP-users+subscribe@googlegroups.com with any subject or content.
-      #. Get a confirmation notice from SWAT-LAMP-users+subconfirm@googlegroups.com and confirm by replying.
+      #. Send an email to ----- with any subject or content.
+      #. Get a confirmation notice from ---- and confirm by replying.
       #. Once the above is complete, you are registered and you can start sending emails to the community.
 
 
