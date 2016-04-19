@@ -1,0 +1,5 @@
+.. _SWAT-LAMP_quickstart:
+
+==================
+SWAT-LAMP Quickstart
+==================
