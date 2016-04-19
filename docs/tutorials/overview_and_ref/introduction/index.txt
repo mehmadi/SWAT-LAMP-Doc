@@ -5,7 +5,7 @@ Introduction
 ============
 This section introduces the SWAT-LAMP GUI and functionalities through a step-by-step workshop.
 
-At the end of this module the users will be familiar with the SWAT-LAMP default GUI and objects.
+At the end of this module the users will be familiar with the SWAT-LAMP GUI and objects.
 
 .. toctree::
    :maxdepth: 2
