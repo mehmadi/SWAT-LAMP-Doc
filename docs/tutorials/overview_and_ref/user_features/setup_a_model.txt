@@ -1,0 +1,15 @@
+.. _setting_up_model:
+
+======================
+Setup a Model
+======================
+
+SWAT-LAMP allows users to 
+
+Features include:
+
+* TxtInOut
+
+* Microsoft Access file (*.mdb)
+
+* Compressed TxtInOut
