@@ -14,7 +14,7 @@ Scenarios in SWAT-LAMP can be defined manually or by using a built-in Multi-Crit
 
 SWAT-LAMP is also designed to be a flexible tool. Users can extend and modify practices in the tool to meet requirements in their own applications.
 
-SWAT- LAMP is still in-progress project.
+SWAT- LAMP is an in-progress project.
 
 Project Setup
 =======================
