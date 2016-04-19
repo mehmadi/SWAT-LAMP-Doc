@@ -7,7 +7,7 @@ Organizational
 Project Information
 ===================
 
-This is information on existing projects, contributing to SWAT-LAMP (code, documentation, translation, ...) and the community itself.
+This is information on existing projects, contributing to SWAT-LAMP (documentation, and documentation translation, ...) and the community itself.
 
 :ref:`about` - What is SWAT-LAMP, the big picture.
 
@@ -19,7 +19,7 @@ This is information on existing projects, contributing to SWAT-LAMP (code, docum
 
 `SWAT-LAMP Projects`_ - Who else is doing cool stuff with SWAT-LAMP.
 
-GNIPS_  SWAT-LAMP Improvement Proposals.
+SLIPS_  SWAT-LAMP Improvement Proposals.
 
 
 Contributing
@@ -32,8 +32,6 @@ Helping out the SWAT-LAMP project is great and by contributing we all benefit an
 :ref:`review_process` is where code review happens, explained for developers.
 
 :ref:`review_criteria` for extending SWAT-LAMP.
-
-:ref:`contrib_trans` and update an existing language or add a new one.
 
 :ref:`contrib_docu` is outlined how to get started writing documentation.
 
@@ -54,10 +52,8 @@ Table of Content
     contribute/index
     contribute/review_process
     contribute/review_criteria
-    contribute/contribute_to_translation
     contribute/contribute_to_documentation
     contribute/documentation_guidelines
     contribute/contribute_to_doc_translation
 
-.. _GNIPS: https://github.com/SWAT-LAMP/SWAT-LAMP/wiki/SWAT-LAMP-Improvement-Proposals
-.. _SWAT-LAMP Projects: http://SWAT-LAMP.org/gallery/
+.. _SLIPS: ----
