@@ -1,1 +1,11 @@
-ss
+.. _visualize_results:
+
+======================
+Visualize Results
+======================
+
+SWAT-LAMP allows users to 
+
+Features include:
+
+* sss
