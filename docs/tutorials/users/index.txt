@@ -5,47 +5,21 @@ Users Workshop
 ==============
 Welcome to the SWAT-LAMP Training `Users Workshop` documentation v\ |release|.
 
-This workshop will teach how to use the `SWAT-LAMP <http://SWAT-LAMP.org/>`_ going in depth into what we can do with software application.
+This workshop will teach how to use the `SWAT-LAMP`_ going in depth into what we can do with software application.
 At the end of this section you will master all the SWAT-LAMP sections and entities from a user perspective.
 
 You will know how to:
 
-1. Manage users accounts and how to modify them.
-2. Use and manage the different SWAT-LAMP basic resouces.
-3. Use the SWAT-LAMP searching tools to find your resources.
-4. Manage Layers and Maps, update the styles and publish them.
-5. Load datasets into SWAT-LAMP and keep them synchronized with GeoServer.
-
-*Prerequisites*
-
-    Before proceeding with the reading, it is strongly recommended to be sure having clear the following concepts:
-
-    1. SWAT-LAMP and Django framework basic concepts
-    2. What is Python
-    3. What is a geospatial server and a basic knowledge of the geospatial web services.
-    4. What is a metadata and a catalog.
-    5. What is a map and a legend.
+1. ---
 
 .. toctree::
     :hidden:
     :maxdepth: 5
 
-    accounts_and_users/index
-    document_types/index
-    searching/index
     managing_layers/index
     edit_style/index
     managing_maps/index
     using_SWAT-LAMP_w_other_applications/index
-
-:ref:`accounts_and_users`
-    SWAT-LAMP is primarily a *social* platform, and thus a primary component of any SWAT-LAMP instance is the user account. This section will guide you through account registration, updating your account information, and viewing other user accounts.
-
-:ref:`document_types`
-    SWAT-LAMP welcome page shows a variety of information about the current SWAT-LAMP instance. At the top of the page is a toolbar showing quick links to document types: layers, maps and documents.
-
-:ref:`searching_docs`
-    SWAT-LAMP advanced Search tool.
 
 :ref:`layers`
     Create, delete, manage and share Layers on SWAT-LAMP.
