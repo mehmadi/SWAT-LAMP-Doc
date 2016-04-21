@@ -29,7 +29,7 @@ Once the project is setup, user will be able to review and modify a long set of 
 
 .. note::
 
-    Defining new practice and modifying existing practices is not active in the GUI of the Beta release (v\ |release|.), yet. However, users can work in the source to make their required changes. This will be explained in detail later.
+    Defining a new practice and modifying existing practices is not active in the GUI of the Beta release (v\ |release|.), yet. However, users can work in the source to make their required changes. This will be explained in detail later.
     
 
 Scenario Analysis
