@@ -9,7 +9,7 @@ The tutorials are based around performing tasks, like setting up a project, defi
    :maxdepth: 5
 
    overview_and_ref/index
-   install/index
+   users/index
 
 :ref:`overview_and_ref`
     This module guides the user to an overview of SWAT-LAMP and its main components.
