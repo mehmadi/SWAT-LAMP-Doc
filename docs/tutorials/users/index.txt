@@ -9,26 +9,3 @@ This workshop will teach how to use the `SWAT-LAMP`_ going in depth into what we
 At the end of this section you will master all the SWAT-LAMP sections and entities from a user perspective.
 
 You will know how to:
-
-1. ---
-
-.. toctree::
-    :hidden:
-    :maxdepth: 5
-
-    managing_layers/index
-    edit_style/index
-    managing_maps/index
-    using_SWAT-LAMP_w_other_applications/index
-
-:ref:`layers`
-    Create, delete, manage and share Layers on SWAT-LAMP.
-
-:ref:`styling_layers`
-    Beautify the Layer using the SWAT-LAMP Style editor.
-
-:ref:`maps`
-    Create, delete, manage and share Maps on SWAT-LAMP.
-
-:ref:`integration`
-    Your SWAT-LAMP project is based on core components which are interoperable and as such, it is straightforward for you to integrate with external applications and services. This section will walk you through how to connect to your SWAT-LAMP instance from other applications and how to integrate other services into your SWAT-LAMP project. When complete, you should have a good idea about the possibilities for integration, and have basic knowledge about how to accomplish it. You may find it necessary to dive deeper into how to do more complex integration in order to accomplish your goals, but you should feel comfortable with the basics, and feel confident reaching out to the wider SWAT-LAMP community for help.
